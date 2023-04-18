@@ -1,0 +1,35 @@
+header{
+    color: black;
+    padding: 20px;
+}
+img{
+    align-content: center;
+}
+.button-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .previous-button,
+  .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+  }
+  
+  .next-button {
+    margin-left: 10px;
+  }
+
+  body {
+    background-image: url('beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  

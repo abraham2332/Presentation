@@ -1,0 +1,47 @@
+header h1{
+    background-color: darkslategray;
+    color: black;
+    padding: 20px;
+}
+footer{
+    background-color: darkslategray;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin-right: 50px;
+    float: right;
+}
+a:hover{
+    color: black;
+    background-color: darkslategray;
+}
+li a{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 75px; height: 50px; margin: 10px;
+    border: 3px solid gray;
+}
+.button-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .previous-button,
+  .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+  }
+  
+  .next-button {
+    margin-left: 10px;
+  }
